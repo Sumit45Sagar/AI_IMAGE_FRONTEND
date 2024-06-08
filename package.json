@@ -7,10 +7,16 @@
   },
   "name": "image_frontend",
   "version": "1.0.0",
+  "description": "",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "serve": "parcel serve src/index.html",
+    "clean": "rm -rf .parcel-cache dist"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
