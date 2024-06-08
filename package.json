@@ -6,9 +6,8 @@
     "react-router-dom": "^6.23.1",
     "vercel": "^34.2.6"
   },
-  "name": "day14",
+  "name": "image_frontend",
   "version": "1.0.0",
-  "description": "make 3 basic files --> index.html --> styles.css --> app.js",
   "main": "app.js",
   "scripts": {
     "start": "parcel index.html",

@@ -2967,7 +2967,7 @@ var _historyPageJs = require("./src/pages/HistoryPage/historyPage.js");
 var _historyPageJsDefault = parcelHelpers.interopDefault(_historyPageJs);
 var _pointsContextJs = require("./src/context/pointsContext.js");
 var _pointsContextJsDefault = parcelHelpers.interopDefault(_pointsContextJs);
-var _contactusJs = require("./src/pages/contactUs/contactus.js");
+var _contactusJs = require("./src/pages/contactus/contactus.js");
 var _contactusJsDefault = parcelHelpers.interopDefault(_contactusJs);
 var _reactRouterDom = require("react-router-dom");
 var _historyInformationPageJs = require("./src/pages/HistoryInformationPage/historyInformationPage.js");
@@ -3093,7 +3093,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./src/pages/common/Navbar/navbar.js":"2Xn2v","./src/pages/HomePage/homepage.js":"a7cYD","./src/pages/ImageGenerator/imageGenerator.js":"gdARo","./src/pages/HistoryPage/historyPage.js":"bujso","./src/context/pointsContext.js":"3EBhw","./src/pages/contactUs/contactus.js":"du6pA","react-router-dom":"9xmpe","./src/pages/HistoryInformationPage/historyInformationPage.js":"aeRD2","./src/pages/signup/signup.js":"1mTmW","./src/pages/login/login.js":"dnRSK","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./src/pages/common/Navbar/navbar.js":"2Xn2v","./src/pages/HomePage/homepage.js":"a7cYD","./src/pages/ImageGenerator/imageGenerator.js":"gdARo","./src/pages/HistoryPage/historyPage.js":"bujso","./src/context/pointsContext.js":"3EBhw","react-router-dom":"9xmpe","./src/pages/HistoryInformationPage/historyInformationPage.js":"aeRD2","./src/pages/signup/signup.js":"1mTmW","./src/pages/login/login.js":"dnRSK","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./src/pages/contactus/contactus.js":"2vL9G"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -34772,197 +34772,7 @@ $RefreshReg$(_c, "HistoryCard");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","./historyPage.css":"ckjrN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"ckjrN":[function() {},{}],"du6pA":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$9235 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$9235.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _contactusCss = require("./contactus.css");
-var _navbarJs = require("../common/Navbar/navbar.js");
-var _navbarJsDefault = parcelHelpers.interopDefault(_navbarJs);
-var _s = $RefreshSig$();
-const ContactUs = ()=>{
-    _s();
-    const [formData, setFormData] = (0, _react.useState)({
-        name: "",
-        email: "",
-        message: ""
-    });
-    const handleChange = (e)=>{
-        const { name, value } = e.target;
-        setFormData({
-            ...formData,
-            [name]: value
-        });
-    };
-    const handleSubmit = (e)=>{
-        e.preventDefault();
-        console.log("Form submitted:", formData);
-        setFormData({
-            name: "",
-            email: "",
-            message: ""
-        });
-    };
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarJsDefault.default), {
-                page: "contact"
-            }, void 0, false, {
-                fileName: "src/pages/contactUs/contactus.js",
-                lineNumber: 32,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "contactus-main-container",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                        children: "Contact Us"
-                    }, void 0, false, {
-                        fileName: "src/pages/contactUs/contactus.js",
-                        lineNumber: 34,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
-                        onSubmit: handleSubmit,
-                        className: "contactus-form",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "form-group",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                                        htmlFor: "name",
-                                        children: "Name:"
-                                    }, void 0, false, {
-                                        fileName: "src/pages/contactUs/contactus.js",
-                                        lineNumber: 37,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                        type: "text",
-                                        id: "name",
-                                        name: "name",
-                                        value: formData.name,
-                                        onChange: handleChange,
-                                        required: true,
-                                        className: "contactus-input"
-                                    }, void 0, false, {
-                                        fileName: "src/pages/contactUs/contactus.js",
-                                        lineNumber: 38,
-                                        columnNumber: 25
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/pages/contactUs/contactus.js",
-                                lineNumber: 36,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "form-group",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                                        htmlFor: "email",
-                                        children: "Email:"
-                                    }, void 0, false, {
-                                        fileName: "src/pages/contactUs/contactus.js",
-                                        lineNumber: 49,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                        type: "email",
-                                        id: "email",
-                                        name: "email",
-                                        value: formData.email,
-                                        onChange: handleChange,
-                                        required: true,
-                                        className: "contactus-input"
-                                    }, void 0, false, {
-                                        fileName: "src/pages/contactUs/contactus.js",
-                                        lineNumber: 50,
-                                        columnNumber: 25
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/pages/contactUs/contactus.js",
-                                lineNumber: 48,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "form-group",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                                        htmlFor: "message",
-                                        children: "Message:"
-                                    }, void 0, false, {
-                                        fileName: "src/pages/contactUs/contactus.js",
-                                        lineNumber: 61,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
-                                        id: "message",
-                                        name: "message",
-                                        value: formData.message,
-                                        onChange: handleChange,
-                                        required: true,
-                                        className: "contactus-textarea"
-                                    }, void 0, false, {
-                                        fileName: "src/pages/contactUs/contactus.js",
-                                        lineNumber: 62,
-                                        columnNumber: 25
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/pages/contactUs/contactus.js",
-                                lineNumber: 60,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                type: "submit",
-                                className: "contactus-button",
-                                children: "Submit"
-                            }, void 0, false, {
-                                fileName: "src/pages/contactUs/contactus.js",
-                                lineNumber: 71,
-                                columnNumber: 21
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/pages/contactUs/contactus.js",
-                        lineNumber: 35,
-                        columnNumber: 17
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/pages/contactUs/contactus.js",
-                lineNumber: 33,
-                columnNumber: 13
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/pages/contactUs/contactus.js",
-        lineNumber: 31,
-        columnNumber: 9
-    }, undefined);
-};
-_s(ContactUs, "DwuyY+wmtqbiZwXT1DLXKKLPqeU=");
-_c = ContactUs;
-exports.default = ContactUs;
-var _c;
-$RefreshReg$(_c, "ContactUs");
-
-  $parcel$ReactRefreshHelpers$9235.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./contactus.css":"6eECX","../common/Navbar/navbar.js":"2Xn2v","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"6eECX":[function() {},{}],"aeRD2":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","./historyPage.css":"ckjrN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"ckjrN":[function() {},{}],"aeRD2":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$7875 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -35286,6 +35096,196 @@ $RefreshReg$(_c, "Login");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../context/pointsContext":"3EBhw","../common/Navbar/navbar.js":"2Xn2v","./login.css":"d6Te3","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"d6Te3":[function() {},{}]},["hPIHA","1xC6H","igcvL"], "igcvL", "parcelRequire4ba1")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../context/pointsContext":"3EBhw","../common/Navbar/navbar.js":"2Xn2v","./login.css":"d6Te3","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"d6Te3":[function() {},{}],"2vL9G":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$ec94 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$ec94.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _contactusCss = require("./contactus.css");
+var _navbarJs = require("../common/Navbar/navbar.js");
+var _navbarJsDefault = parcelHelpers.interopDefault(_navbarJs);
+var _s = $RefreshSig$();
+const ContactUs = ()=>{
+    _s();
+    const [formData, setFormData] = (0, _react.useState)({
+        name: "",
+        email: "",
+        message: ""
+    });
+    const handleChange = (e)=>{
+        const { name, value } = e.target;
+        setFormData({
+            ...formData,
+            [name]: value
+        });
+    };
+    const handleSubmit = (e)=>{
+        e.preventDefault();
+        console.log("Form submitted:", formData);
+        setFormData({
+            name: "",
+            email: "",
+            message: ""
+        });
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarJsDefault.default), {
+                page: "contact"
+            }, void 0, false, {
+                fileName: "src/pages/contactus/contactus.js",
+                lineNumber: 32,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "contactus-main-container",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        children: "Contact Us"
+                    }, void 0, false, {
+                        fileName: "src/pages/contactus/contactus.js",
+                        lineNumber: 34,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                        onSubmit: handleSubmit,
+                        className: "contactus-form",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "form-group",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                        htmlFor: "name",
+                                        children: "Name:"
+                                    }, void 0, false, {
+                                        fileName: "src/pages/contactus/contactus.js",
+                                        lineNumber: 37,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                        type: "text",
+                                        id: "name",
+                                        name: "name",
+                                        value: formData.name,
+                                        onChange: handleChange,
+                                        required: true,
+                                        className: "contactus-input"
+                                    }, void 0, false, {
+                                        fileName: "src/pages/contactus/contactus.js",
+                                        lineNumber: 38,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/pages/contactus/contactus.js",
+                                lineNumber: 36,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "form-group",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                        htmlFor: "email",
+                                        children: "Email:"
+                                    }, void 0, false, {
+                                        fileName: "src/pages/contactus/contactus.js",
+                                        lineNumber: 49,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                        type: "email",
+                                        id: "email",
+                                        name: "email",
+                                        value: formData.email,
+                                        onChange: handleChange,
+                                        required: true,
+                                        className: "contactus-input"
+                                    }, void 0, false, {
+                                        fileName: "src/pages/contactus/contactus.js",
+                                        lineNumber: 50,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/pages/contactus/contactus.js",
+                                lineNumber: 48,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "form-group",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                        htmlFor: "message",
+                                        children: "Message:"
+                                    }, void 0, false, {
+                                        fileName: "src/pages/contactus/contactus.js",
+                                        lineNumber: 61,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
+                                        id: "message",
+                                        name: "message",
+                                        value: formData.message,
+                                        onChange: handleChange,
+                                        required: true,
+                                        className: "contactus-textarea"
+                                    }, void 0, false, {
+                                        fileName: "src/pages/contactus/contactus.js",
+                                        lineNumber: 62,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/pages/contactus/contactus.js",
+                                lineNumber: 60,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                type: "submit",
+                                className: "contactus-button",
+                                children: "Submit"
+                            }, void 0, false, {
+                                fileName: "src/pages/contactus/contactus.js",
+                                lineNumber: 71,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/pages/contactus/contactus.js",
+                        lineNumber: 35,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/pages/contactus/contactus.js",
+                lineNumber: 33,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/pages/contactus/contactus.js",
+        lineNumber: 31,
+        columnNumber: 9
+    }, undefined);
+};
+_s(ContactUs, "DwuyY+wmtqbiZwXT1DLXKKLPqeU=");
+_c = ContactUs;
+exports.default = ContactUs;
+var _c;
+$RefreshReg$(_c, "ContactUs");
+
+  $parcel$ReactRefreshHelpers$ec94.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./contactus.css":"e0zpy","../common/Navbar/navbar.js":"2Xn2v","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"e0zpy":[function() {},{}]},["hPIHA","1xC6H","igcvL"], "igcvL", "parcelRequire099a")
 
 //# sourceMappingURL=index.5baa4167.js.map

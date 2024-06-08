@@ -226,6 +226,113 @@ button {
   transform: scale(1.05);
 }
 
+.signup-main-container {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 70px auto;
+  padding: 40px 20px;
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+.signup-form-container {
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+}
+
+.signup-input {
+  border: 2px solid #61b8ff;
+  border-radius: 25px;
+  outline: none;
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 1.2em;
+  transition: border-color .3s;
+}
+
+.signup-input:focus {
+  border-color: #61b8ff;
+}
+
+.signup-button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #61b8ff;
+  border: none;
+  border-radius: 25px;
+  width: 100%;
+  max-width: 200px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  transition: background-color .3s, transform .3s;
+}
+
+.signup-button:hover {
+  background-color: #61b8ff;
+  transform: scale(1.05);
+}
+
+.login-main-container {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 70px auto;
+  padding: 40px 20px;
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+.login-form-container {
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+}
+
+.login-input {
+  border: 2px solid #61b8ff;
+  border-radius: 25px;
+  outline: none;
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 1.2em;
+  transition: border-color .3s;
+}
+
+.login-input:focus {
+  border-color: #61b8ff;
+}
+
+.login-button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #61b8ff;
+  border: none;
+  border-radius: 25px;
+  width: 100%;
+  max-width: 200px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  transition: background-color .3s, transform .3s;
+}
+
+.login-button:hover {
+  background-color: #61b8ff;
+  transform: scale(1.05);
+}
+
+body {
+  box-sizing: border-box;
+  color: #333;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica Neue, Arial, sans-serif;
+}
+
 .contactus-main-container {
   text-align: center;
   background-color: #fff;
@@ -284,113 +391,6 @@ button {
 }
 
 .contactus-button:hover {
-  background-color: #61b8ff;
-  transform: scale(1.05);
-}
-
-.signup-main-container {
-  text-align: center;
-  background-color: #fff;
-  border-radius: 8px;
-  max-width: 400px;
-  margin: 70px auto;
-  padding: 40px 20px;
-  box-shadow: 0 4px 8px #0000001a;
-}
-
-.signup-form-container {
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  display: flex;
-}
-
-.signup-input {
-  border: 2px solid #61b8ff;
-  border-radius: 25px;
-  outline: none;
-  width: 100%;
-  padding: 10px 15px;
-  font-size: 1.2em;
-  transition: border-color .3s;
-}
-
-.signup-input:focus {
-  border-color: #61b8ff;
-}
-
-.signup-button {
-  color: #fff;
-  cursor: pointer;
-  background-color: #61b8ff;
-  border: none;
-  border-radius: 25px;
-  width: 100%;
-  max-width: 200px;
-  padding: 10px 20px;
-  font-size: 1.2em;
-  transition: background-color .3s, transform .3s;
-}
-
-.signup-button:hover {
-  background-color: #61b8ff;
-  transform: scale(1.05);
-}
-
-body {
-  box-sizing: border-box;
-  color: #333;
-  background-color: #f0f4f8;
-  margin: 0;
-  padding: 0;
-  font-family: Helvetica Neue, Arial, sans-serif;
-}
-
-.login-main-container {
-  text-align: center;
-  background-color: #fff;
-  border-radius: 8px;
-  max-width: 400px;
-  margin: 70px auto;
-  padding: 40px 20px;
-  box-shadow: 0 4px 8px #0000001a;
-}
-
-.login-form-container {
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  display: flex;
-}
-
-.login-input {
-  border: 2px solid #61b8ff;
-  border-radius: 25px;
-  outline: none;
-  width: 100%;
-  padding: 10px 15px;
-  font-size: 1.2em;
-  transition: border-color .3s;
-}
-
-.login-input:focus {
-  border-color: #61b8ff;
-}
-
-.login-button {
-  color: #fff;
-  cursor: pointer;
-  background-color: #61b8ff;
-  border: none;
-  border-radius: 25px;
-  width: 100%;
-  max-width: 200px;
-  padding: 10px 20px;
-  font-size: 1.2em;
-  transition: background-color .3s, transform .3s;
-}
-
-.login-button:hover {
   background-color: #61b8ff;
   transform: scale(1.05);
 }
