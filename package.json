@@ -11,9 +11,9 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html",
-    "serve": "parcel serve src/index.html",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "serve": "parcel serve index.html",
     "clean": "rm -rf .parcel-cache dist"
   },
   "keywords": [],
