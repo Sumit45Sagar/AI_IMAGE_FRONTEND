@@ -5,7 +5,7 @@ import HomePage from "./src/pages/HomePage/homepage.js";
 import ImageGenerator from './src/pages/ImageGenerator/imageGenerator.js';
 import HistoryPage from "./src/pages/HistoryPage/historyPage.js";
 import PointsContext from "./src/context/pointsContext.js";
-import ContactUs from "./src/pages/contactUs/contactus.js";
+import ContactUs from "./src/pages/contactus/contactus.js";
 
 import { createBrowserRouter, RouterProvider, Navigate } from "react-router-dom";
 import HistoryInformationPage from "./src/pages/HistoryInformationPage/historyInformationPage.js";
