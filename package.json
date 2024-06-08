@@ -11,8 +11,8 @@
   "description": "make 3 basic files --> index.html --> styles.css --> app.js",
   "main": "app.js",
   "scripts": {
-     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "start": "parcel index.html",
+    "build": "parcel index.html"
   },
   "author": "",
   "license": "ISC",
