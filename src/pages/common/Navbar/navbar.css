@@ -1,17 +1,18 @@
-
 .header-parent-container {
-    box-shadow: rgba(218, 216, 210, 0.3) 0px 10px 10px -10px; 
+    box-shadow: rgba(218, 216, 210, 0.3) 0px 10px 10px -10px;
     display: flex;
     background-color: rgb(22, 22, 22);
     align-items: center;
     justify-content: space-between;
     padding: 8px 16px;
     color: white;
+    flex-wrap: wrap; 
 }
 
-.left {
+.left, .right {
     display: flex;
     align-items: center;
+    flex-wrap: wrap; 
 }
 
 .left a {
@@ -20,16 +21,11 @@
     margin-right: 20px;
     padding: 10px 15px;
     border-radius: 4px;
-    transition: background-color 0.3s ease; 
+    transition: background-color 0.3s ease;
 }
 
 .left a:hover {
-    background-color: #333;  
-}
-
-.right {
-    display: flex;
-    align-items: center;
+    background-color: #333;
 }
 
 .right .profile-icon {
@@ -57,4 +53,38 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-} 
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .header-parent-container {
+        padding: 8px;
+    }
+    
+    .left, .right {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .left a, button {
+        padding: 8px 12px;
+        margin: 5px;
+    }
+    
+    .right .profile-icon {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    .left a, button {
+        padding: 6px 10px;
+        margin: 3px;
+    }
+
+    .right .profile-icon {
+        width: 30px;
+        height: 30px;
+    }
+}
