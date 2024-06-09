@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import Navbar from "../common/Navbar/navbar";
 import "./signup.css"; 
+import { useNavigate } from "react-router-dom"; 
 
 const Signup = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
+    const navigate = useNavigate();
 
     const handleClick = async () => {
         if (!email || !password) {
@@ -19,6 +21,7 @@ const Signup = () => {
         });
         const data = await res.json();
         console.log(data);
+        navigate("/login");
     }
 
     return (
